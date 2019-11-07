@@ -1,0 +1,28 @@
+{
+
+    "view": {
+	"png": "",
+	"jpg": "lximage-qt",
+	"jpeg": "lximage-qt",
+	"mp4": "cvlc",
+	"mov": "cvlc",
+	"webm": "google-chrome",
+	"pdf": "google-chrome"
+    },
+
+    "edit": {
+	"png": "pinta",
+	"jpg": "pinta",
+	"jpeg": "pinta",
+	"mp4": "kdenlive",
+	"mov": "kdenlive",
+	"txt": "emacs -nw",
+	"py": "emacs -nw",
+	"json": "emacs -nw",
+	"c": "emacs -nw",
+	"h": "emacs -nw",
+	"cpp": "emacs -nw",
+	"pdf": "xournal"
+    }
+
+}

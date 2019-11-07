@@ -1,0 +1,9 @@
+json=$(cat ~/bin/defaults.json)
+
+e=$(echo $1 | cut -d'.' -f2)
+
+getstr=".edit.$e"
+echo $getstr
+prog=$(echo $json | jq $getstr | sed -e 's/^"//' -e 's/"$//')
+
+$($prog $1)
